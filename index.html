@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barbería profesional en San Fernando. Cortes masculinos, fade, barba y afeitado clásico. Reservá tu turno.">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>BARBERÍA | Corte · Estilo · Actitud</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header" id="inicio">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Barbería - Inicio">
+        <span class="brand-mark">✂</span>
+        <span>
+          <strong>BARBERÍA</strong>
+          <small>CORTE · ESTILO · ACTITUD</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a class="active" href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="btn btn-small" href="#turno">Reservar turno <span>→</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image" role="img" aria-label="Barbero realizando un corte masculino"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">BARBERÍA PROFESIONAL</p>
+        <h1>Tu estilo,<br><em>nuestra pasión.</em></h1>
+        <p class="hero-copy">Cortes modernos y clásicos, perfilado de barba y un servicio personalizado para que siempre te veas y te sientas mejor.</p>
+        <a class="btn" href="#turno">Reservar turno <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="section services" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">NUESTROS SERVICIOS</p>
+          <h2>Más que un corte,<br><em>es un estilo de vida.</em></h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon">✂</div>
+            <h3>Corte Masculino</h3>
+            <p>Cortes clásicos y modernos adaptados a tu estilo y forma de rostro.</p>
+            <span class="service-meta">$XX &nbsp;|&nbsp; 30–45 min</span>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">◒</div>
+            <h3>Perfilado de Barba</h3>
+            <p>Definición y forma para una barba prolija, equilibrada y bien cuidada.</p>
+            <span class="service-meta">$XX &nbsp;|&nbsp; 20–30 min</span>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">▱</div>
+            <h3>Afeitado Clásico</h3>
+            <p>Experiencia tradicional con navaja para un acabado impecable.</p>
+            <span class="service-meta">$XX &nbsp;|&nbsp; 20–30 min</span>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">✂</div>
+            <h3>Corte + Barba</h3>
+            <p>El combo perfecto para un look completo, prolijo y equilibrado.</p>
+            <span class="service-meta">$XX &nbsp;|&nbsp; 60–75 min</span>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">✦</div>
+            <h3>Tratamientos</h3>
+            <p>Cuidado especial para tu cabello y barba: hidratación, limpieza y nutrición.</p>
+            <span class="service-meta">$XX &nbsp;|&nbsp; 20–40 min</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre-mi">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="assets/barberia-hero.png" alt="Herramientas profesionales de barbería" loading="lazy">
+        </div>
+
+        <div class="about-content">
+          <p class="eyebrow">SOBRE MÍ</p>
+          <h2>Experiencia, técnica<br><em>y atención personalizada.</em></h2>
+          <p>Soy barbero profesional con formación en IAB – Instituto Argentino de Barbería, sede San Fernando, con formación finalizada en 2021.</p>
+          <p>Mi objetivo es que cada cliente reciba un servicio de calidad, con atención personalizada, precisión técnica y un ambiente cómodo y profesional.</p>
+
+          <div class="features">
+            <div><span>☆</span><strong>Técnicas actuales</strong></div>
+            <div><span>♢</span><strong>Higiene y seguridad</strong></div>
+            <div><span>◯</span><strong>Atención personalizada</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="galeria">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">GALERÍA</p>
+          <h2>Algunos de nuestros<br><em>trabajos.</em></h2>
+        </div>
+
+        <div class="gallery-grid">
+          <figure><img src="assets/barberia-hero.png" alt="Corte masculino degradado" loading="lazy"></figure>
+          <figure><img src="assets/barberia-hero.png" alt="Corte masculino y barba" loading="lazy"></figure>
+          <figure><img src="assets/barberia-hero.png" alt="Fade masculino" loading="lazy"></figure>
+          <figure><img src="assets/barberia-hero.png" alt="Perfilado masculino" loading="lazy"></figure>
+          <figure><img src="assets/barberia-hero.png" alt="Detalle de barba" loading="lazy"></figure>
+        </div>
+        <p class="gallery-note">Reemplazá estas imágenes por fotos reales de tus trabajos para mostrar tu portfolio.</p>
+      </div>
+    </section>
+
+    <section class="booking" id="turno">
+      <div class="booking-bg"></div>
+      <div class="container booking-grid">
+        <div>
+          <p class="eyebrow">AGENDA TU TURNO</p>
+          <h2>Tu próximo corte<br><em>te está esperando.</em></h2>
+          <p>Reservá tu turno de forma rápida y sencilla.</p>
+          <a class="btn" href="https://wa.me/549112345678?text=Hola%2C%20quiero%20reservar%20un%20turno%20en%20la%20barber%C3%ADa." target="_blank" rel="noopener">Reservar por WhatsApp <span>→</span></a>
+        </div>
+
+        <div class="booking-points">
+          <div><span>◷</span> Turnos flexibles</div>
+          <div><span>♢</span> Ambiente seguro y limpio</div>
+          <div><span>☆</span> Atención personalizada</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio">
+          <span class="brand-mark">✂</span>
+          <span>
+            <strong>BARBERÍA</strong>
+            <small>CORTE · ESTILO · ACTITUD</small>
+          </span>
+        </a>
+      </div>
+
+      <div class="contact-list">
+        <a href="tel:+549112345678">+54 9 11 1234 5678</a>
+        <a href="mailto:info@barberia.com">info@barberia.com</a>
+        <span>Av. Libertador 1234, San Fernando, Buenos Aires</span>
+      </div>
+
+      <div class="social">
+        <p>Seguinos en redes</p>
+        <div>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="TikTok">TikTok</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright">
+      <span>© <span id="year"></span> Barbería. Todos los derechos reservados.</span>
+      <a href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
