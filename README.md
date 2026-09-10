@@ -1,37 +1,26 @@
-# BARBERÍA — Sitio web
+# BARBERÍA — Sitio web premium
 
-Landing page profesional en estilo dark premium, preparada para GitHub Pages.
+Sitio web responsive de una barbería profesional, preparado para GitHub Pages.
 
-## Galería
+## Estructura
 
-La galería incluye referencias visuales de estilos de barbería desde Pexels:
+- `index.html` — estructura, contenido y SEO básico.
+- `style.css` — diseño responsive dark premium.
+- `script.js` — menú móvil, navegación suave, indicador de scroll, navegación activa y animaciones de entrada.
+- `assets/estudiodetrabajo.jfif` — fotografía real del espacio de trabajo.
 
-- Fade / degradado + barba
-- Beard / perfilado
-- Classic / raya lateral
-- Style / corte con tijera
-- Detail / precisión de fade
+## Antes de publicar
 
-Las imágenes están enlazadas a sus páginas originales de Pexels y están marcadas como de uso gratuito en sus páginas. Para una web comercial definitiva, se recomienda reemplazarlas por fotos propias de los trabajos del barbero.
+Reemplazá los datos de ejemplo del HTML:
 
-## Archivos
+- Teléfono / WhatsApp: `+54 9 11 1234 5678`
+- Email: `info@barberia.com`
+- Dirección: `Av. Libertador 1234, San Fernando, Buenos Aires`
+- Precios `$XX`
+- Enlaces de Instagram, Facebook y TikTok (`#`)
 
-- `index.html`
-- `style.css`
-- `script.js`
-- `README.md`
-
-## Personalizar antes de publicar
-
-Reemplazá:
-- nombre de la barbería;
-- teléfono;
-- WhatsApp;
-- correo;
-- dirección;
-- precios;
-- enlaces de Instagram/Facebook/TikTok.
+La galería utiliza imágenes de referencia externas de Pexels. Para un portfolio definitivo, conviene sustituirlas por fotos propias de los cortes realizados.
 
 ## GitHub Pages
 
-Subí los archivos al repositorio y activá GitHub Pages desde Settings > Pages, usando la rama principal.
+Subí todos los archivos manteniendo la carpeta `assets`. Después activá GitHub Pages desde `Settings → Pages` y seleccioná la rama principal como fuente.
