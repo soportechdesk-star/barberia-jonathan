@@ -1,36 +1,27 @@
 # BARBERÍA — Sitio web
 
-Landing page profesional para una barbería, preparada para publicar en GitHub Pages.
+Versión dark premium sin fotografías de fondo. Está preparada para GitHub Pages y evita imágenes pesadas o fondos que puedan distraer del contenido.
 
 ## Archivos
 
-- `index.html` — estructura y contenido.
-- `style.css` — diseño responsive.
-- `script.js` — menú móvil, navegación y año automático.
-- `assets/barberia-hero.png` — imagen principal generada para el diseño.
+- `index.html`
+- `style.css`
+- `script.js`
+- `README.md`
 
-## Antes de publicar
+## Personalizar antes de publicar
 
-Reemplazá estos datos:
+Reemplazá:
+- nombre de la barbería;
+- teléfono;
+- WhatsApp;
+- correo;
+- dirección;
+- precios;
+- enlaces de Instagram/Facebook/TikTok.
 
-1. Nombre de la barbería.
-2. Número de WhatsApp en el enlace `wa.me`.
-3. Teléfono.
-4. Correo electrónico.
-5. Dirección.
-6. Precios de los servicios.
-7. Enlaces de Instagram, Facebook y TikTok.
-8. Fotos de la galería por fotos reales de tus trabajos.
+La sección Galería usa tarjetas visuales temporales. Podés sustituirlas por fotografías reales cuando tengas material propio.
 
-## Publicación en GitHub Pages
+## GitHub Pages
 
-Subí todos los archivos manteniendo esta estructura:
-
-barberia-web/
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-    └── barberia-hero.png
-
-Después activá GitHub Pages desde Settings > Pages y seleccioná la rama principal como fuente.
+Subí los archivos a un repositorio y activá GitHub Pages desde Settings > Pages, usando la rama principal.

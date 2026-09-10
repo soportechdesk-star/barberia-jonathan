@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Barbería profesional en San Fernando. Cortes masculinos, fade, barba y afeitado clásico. Reservá tu turno.">
-  <meta name="theme-color" content="#0b0b0b">
+  <meta name="theme-color" content="#080808">
   <title>BARBERÍA | Corte · Estilo · Actitud</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,13 +39,21 @@
 
   <main>
     <section class="hero">
-      <div class="hero-image" role="img" aria-label="Barbero realizando un corte masculino"></div>
-      <div class="hero-overlay"></div>
+      <div class="hero-decoration" aria-hidden="true">
+        <div class="hero-ring"></div>
+        <div class="hero-line"></div>
+        <span class="hero-number">01</span>
+      </div>
       <div class="container hero-content">
-        <p class="eyebrow">BARBERÍA PROFESIONAL</p>
+        <p class="eyebrow">BARBERÍA PROFESIONAL · SAN FERNANDO</p>
         <h1>Tu estilo,<br><em>nuestra pasión.</em></h1>
         <p class="hero-copy">Cortes modernos y clásicos, perfilado de barba y un servicio personalizado para que siempre te veas y te sientas mejor.</p>
         <a class="btn" href="#turno">Reservar turno <span>→</span></a>
+      </div>
+      <div class="hero-bottom">
+        <span>PRECISIÓN</span>
+        <span>ESTILO</span>
+        <span>DETALLE</span>
       </div>
     </section>
 
@@ -63,28 +71,24 @@
             <p>Cortes clásicos y modernos adaptados a tu estilo y forma de rostro.</p>
             <span class="service-meta">$XX &nbsp;|&nbsp; 30–45 min</span>
           </article>
-
           <article class="service-card">
             <div class="service-icon">◒</div>
             <h3>Perfilado de Barba</h3>
             <p>Definición y forma para una barba prolija, equilibrada y bien cuidada.</p>
             <span class="service-meta">$XX &nbsp;|&nbsp; 20–30 min</span>
           </article>
-
           <article class="service-card">
             <div class="service-icon">▱</div>
             <h3>Afeitado Clásico</h3>
             <p>Experiencia tradicional con navaja para un acabado impecable.</p>
             <span class="service-meta">$XX &nbsp;|&nbsp; 20–30 min</span>
           </article>
-
           <article class="service-card">
             <div class="service-icon">✂</div>
             <h3>Corte + Barba</h3>
             <p>El combo perfecto para un look completo, prolijo y equilibrado.</p>
             <span class="service-meta">$XX &nbsp;|&nbsp; 60–75 min</span>
           </article>
-
           <article class="service-card">
             <div class="service-icon">✦</div>
             <h3>Tratamientos</h3>
@@ -97,8 +101,11 @@
 
     <section class="section about" id="sobre-mi">
       <div class="container about-grid">
-        <div class="about-image">
-          <img src="assets/barberia-hero.png" alt="Herramientas profesionales de barbería" loading="lazy">
+        <div class="about-art" aria-label="Detalle decorativo de herramientas de barbería">
+          <div class="art-circle"></div>
+          <div class="art-scissors">✂</div>
+          <div class="art-label">ESTUDIO<br>DE BARBERÍA</div>
+          <div class="art-year">2021</div>
         </div>
 
         <div class="about-content">
@@ -124,18 +131,18 @@
         </div>
 
         <div class="gallery-grid">
-          <figure><img src="assets/barberia-hero.png" alt="Corte masculino degradado" loading="lazy"></figure>
-          <figure><img src="assets/barberia-hero.png" alt="Corte masculino y barba" loading="lazy"></figure>
-          <figure><img src="assets/barberia-hero.png" alt="Fade masculino" loading="lazy"></figure>
-          <figure><img src="assets/barberia-hero.png" alt="Perfilado masculino" loading="lazy"></figure>
-          <figure><img src="assets/barberia-hero.png" alt="Detalle de barba" loading="lazy"></figure>
+          <figure class="gallery-card"><span>01</span><strong>FADE</strong><small>DEGRADADO</small></figure>
+          <figure class="gallery-card"><span>02</span><strong>BEARD</strong><small>PERFILADO</small></figure>
+          <figure class="gallery-card"><span>03</span><strong>CLASSIC</strong><small>CORTE CLÁSICO</small></figure>
+          <figure class="gallery-card"><span>04</span><strong>STYLE</strong><small>CORTE + BARBA</small></figure>
+          <figure class="gallery-card"><span>05</span><strong>DETAIL</strong><small>ACABADO</small></figure>
         </div>
-        <p class="gallery-note">Reemplazá estas imágenes por fotos reales de tus trabajos para mostrar tu portfolio.</p>
+        <p class="gallery-note">Podés reemplazar estas piezas por fotografías reales de tus trabajos cuando las tengas.</p>
       </div>
     </section>
 
     <section class="booking" id="turno">
-      <div class="booking-bg"></div>
+      <div class="booking-pattern" aria-hidden="true"></div>
       <div class="container booking-grid">
         <div>
           <p class="eyebrow">AGENDA TU TURNO</p>
